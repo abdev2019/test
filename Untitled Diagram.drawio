@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T16:47:17.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" version="15.8.6" etag="CQPERBj8Bid75PbKAjpZ" type="github"><diagram id="kf_XZH1g2RH7kajxPQMX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-13T16:56:50.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="hYd_1QrI3TWvBG-arUCR" version="15.8.6" type="github">
+  <diagram id="kf_XZH1g2RH7kajxPQMX" name="Page-1">
+    <mxGraphModel dx="1292" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-4" value="insert vouchers" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mo3ku-rc3HtsTC2HPsfC-1" target="mo3ku-rc3HtsTC2HPsfC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-1" value="crm-de-importer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="714" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-5" value="read vouchers" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mo3ku-rc3HtsTC2HPsfC-2" target="mo3ku-rc3HtsTC2HPsfC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-2" value="order-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-3" value="db&lt;br&gt;voucher table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="466" y="121" width="96" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-6" value="TODO 2:&lt;br&gt;- add new field in the flatfile structure with 5 digits at the end&lt;br&gt;- save this new field in voucher table: easy_code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="259" width="328" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-7" value="TODO 1:&lt;br&gt;- add new field in voucher table: easy_code&lt;br&gt;- use this field to check the voucher request code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="254" width="271" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="mo3ku-rc3HtsTC2HPsfC-8" value="TODO 3:&lt;br&gt;clean-up existing logic of easy code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="199" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
