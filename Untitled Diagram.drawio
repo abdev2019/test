@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T10:38:13.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="tARM2GBgX_bJe27niPSd" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T20:23:50.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="TNUf9dyi2nSfS0tmAry5" version="17.1.3" type="github">
   <diagram id="kf_XZH1g2RH7kajxPQMX" name="Page-1">
-    <mxGraphModel dx="2988" dy="2822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2621" dy="3490" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -252,6 +252,58 @@
         </mxCell>
         <mxCell id="AvomZq_IEuszwX5cMWHC-65" value="CRM" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="412" y="-311" width="228" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-7" value="&lt;div style=&quot;text-align: left&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;sku: 123456&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;stock: 3&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;erpStatus: [.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; {channel: 04, status: sellable},&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; {channel: 01, status: not_sellable}&lt;/span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;]&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-1" target="QBPP9DDHIpxsTmfMudKZ-2">
+          <mxGeometry x="-0.0822" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-1" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;PDS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-977" y="-2334" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-8" value="&lt;div style=&quot;text-align: left&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;sku: 123456&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;isSellable: true&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-2" target="QBPP9DDHIpxsTmfMudKZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-2" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;basket service&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-511" y="-2327" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-3" target="QBPP9DDHIpxsTmfMudKZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-3" target="QBPP9DDHIpxsTmfMudKZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-11" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-3" target="QBPP9DDHIpxsTmfMudKZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-13" value="&lt;div style=&quot;text-align: left&quot;&gt;header: x-request-source = BACKOFFICE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;query param: sales_channel=01||02&lt;/div&gt;" style="edgeStyle=none;shape=connector;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;curved=1;dashed=1;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-3" target="QBPP9DDHIpxsTmfMudKZ-2">
+          <mxGeometry x="0.1315" y="14" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-289" y="-2441" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-3" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;order service&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-2327" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-4" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;wilis view&lt;br&gt;(already handled)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-342" y="-2040" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-5" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;checkout&lt;br&gt;(draft MR)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-138" y="-2040" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-6" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;mobile&lt;br&gt;(informed team app)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2040" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-12" value="handle flag: order_service_response.items[*].is_sellable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-218.5" y="-2164" width="282" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-16" style="shape=connector;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;elbow=vertical;dashed=1;" edge="1" parent="1" source="QBPP9DDHIpxsTmfMudKZ-15" target="QBPP9DDHIpxsTmfMudKZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QBPP9DDHIpxsTmfMudKZ-15" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;if source = backoffice&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;is_sellable = stock &amp;amp;&amp;amp; erpStatus is valid&lt;br&gt;&lt;/span&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;else&lt;br&gt;&amp;nbsp; &amp;nbsp;is_sellable = stock&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-743" y="-2119" width="247" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
